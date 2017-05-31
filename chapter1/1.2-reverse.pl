@@ -5,10 +5,9 @@ use warnings;
 
 use feature qw(say);
 
-sub reverse_stdlib {
-    return reverse @_;
-}
-
+# Find midpoint of array of swap elements across it
+# time: O(n)
+# space: O(1)
 sub reverse_inplace {
     my ($arr) = @_;
 
