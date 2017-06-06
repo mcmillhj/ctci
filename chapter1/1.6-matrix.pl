@@ -6,8 +6,6 @@ use warnings;
 use feature qw(say);
 
 use Data::Dumper;
-$Data::Dumper::Terse=1;
-$Data::Dumper::Indent=0;
 
 my @matrix = (
     [qw(1 2 3 4)],
